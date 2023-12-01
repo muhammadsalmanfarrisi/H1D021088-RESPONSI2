@@ -32,7 +32,7 @@ export class DashboardPage implements OnInit {
           handler: (data: any) => {
             //jika tekan yakin
             this.authService.logout();
-            this.router.navigateByUrl('/', { replaceUrl: true });
+            this.router.navigateByUrl('/login', { replaceUrl: true });
           }
         }
       ]
