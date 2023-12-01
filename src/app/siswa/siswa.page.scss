@@ -1,0 +1,19 @@
+/* styles.scss or your global styles file */
+.header-toolbar {
+    --background: linear-gradient(to right, #4a90e2, #63d8f1);
+    /* Adjust colors as needed */
+    color: #ffffff;
+    /* Text color */
+}
+
+/* styles.scss or your global styles file */
+.modal-header {
+    --background: linear-gradient(to right, #4a90e2, #63d8f1);
+    /* Adjust colors as needed */
+    color: #ffffff;
+    /* Text color */
+}
+
+ion-button[color="light"] {
+    color: #ffffff;
+}
